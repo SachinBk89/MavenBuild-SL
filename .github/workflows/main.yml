@@ -20,7 +20,7 @@ jobs:
     - name: ssh scp ssh pipelines
       uses: cross-the-world/ssh-scp-ssh-pipelines@latest
       with:
-        host: '13.232.171.210'
+        host: '13.233.142.147'
         user: 'labuser'
         password: ${{secrets.LAB_PASSWORD}}
         port: 22
